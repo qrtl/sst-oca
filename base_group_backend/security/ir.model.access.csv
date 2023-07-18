@@ -1,5 +1,5 @@
 id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
-ir_model_draft_seller,ir_model_draft_seller,base.model_ir_model,group_backend,1,0,0,0
+access_ir_model_user,ir_model all,base.model_ir_model,group_backend,1,0,0,0
 access_res_users_all,res_users all,base.model_res_users,group_backend,1,0,0,0
 access_res_partners_all,res_partners all,base.model_res_partner,group_backend,1,0,0,0
 access_ir_ui_menu_group_user,ir_ui_menu group_user,base.model_ir_ui_menu,group_backend,1,0,0,0
