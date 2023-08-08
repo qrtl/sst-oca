@@ -7,7 +7,6 @@ class ResUsers(models.Model):
     _inherit = "res.users"
 
     @api.model
-    @tools.ormcache('self.env.uid', 'group_ext_id')
     def has_group(self, group_ext_id):
         """While ensuring a user is part of `base.group_user` this code will
         try if user is in the `base_group_backend.group_backend` group to let access
