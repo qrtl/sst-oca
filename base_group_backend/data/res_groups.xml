@@ -1,0 +1,11 @@
+<odoo>
+    <record id="module_category_backend" model="ir.module.category">
+        <field name="name">Backend</field>
+        <field name="sequence">10</field>
+    </record>
+     <record id="group_backend" model="res.groups">
+        <field name="name">Backend User</field>
+        <field name="category_id" ref="base_group_backend.module_category_backend" />
+        <field name="implied_ids" eval="[(4, ref('base.group_portal'))]" />
+    </record>
+</odoo>
